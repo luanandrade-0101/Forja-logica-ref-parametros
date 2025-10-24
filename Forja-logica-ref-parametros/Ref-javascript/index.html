@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parametros nas funcoes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>CALCULOS COM PARAMETROS</h1>
+    <main>
+        <section>
+            <h2>Somar</h2>
+            <input type="number" id="n1" placeholder="insira um numero">
+            <input type="number" id="n2" placeholder="insira um numero">
+            <button onclick="calcular('n1', 'n2', 'respSoma', '+')">calcular</button>
+            <p id="respSoma"></p>
+        </section>
+         <section>
+            <h2>subtracao</h2>
+            <input type="number" id="n3" placeholder="insira um numero">
+            <input type="number" id="n4" placeholder="insira um numero">
+            <button onclick="calcular('n3', 'n4', 'respSub', '-')">calcular</button>
+            <p id="respSub"></p>
+        </section>
+         <section>
+            <h2>multiplicacao</h2>
+            <input type="number" id="n5" placeholder="insira um numero">
+            <input type="number" id="n6" placeholder="insira um numero">
+            <button onclick="calcular('n5', 'n6', 'respMult', '*')">calcular</button>
+            <p id="respMult"></p>
+        </section>
+         <section>
+            <h2>divisao</h2>
+            <input type="number" id="n7" placeholder="insira um numero">
+            <input type="number" id="n8" placeholder="insira um numero">
+            <button onclick="calcular('n7', 'n8', 'respDiv', '/')">calcular</button>
+            <p id="respDiv"></p>
+        </section>
+    </main>
+    
+</body>
+</html>
